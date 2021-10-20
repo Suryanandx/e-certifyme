@@ -1957,16 +1957,16 @@ hr.style-one {
 * 12.services styles
 */
 .services-style-one {
-  background-color: #e8f6ff;
+  background-color: #f2f9fe;
   position: relative;
   padding-top: 120px;
-  padding-bottom: 350px;
+  padding-bottom: 200px;
 }
 .services-style-one:before {
   content: "";
   width: 100%;
   height: 251px;
-  background: #fff url(../images/bg-curve-1-2.png) center center no-repeat;
+  background: #fff url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-creative-gradient-decoration-image_11175.jpg')  center cover no-repeat;
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -1994,7 +1994,7 @@ hr.style-one {
   bottom: 25%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #59adfb;
+  background-color: #bddfff;
   z-index: 8;
   transition: all 0.4s ease;
 }
@@ -2010,16 +2010,16 @@ hr.style-one {
   bottom: 65%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #0284ee;
+  background-color: #42b4fa;
   z-index: 10;
   transition: all 0.4s ease;
 }
 .services-style-one .single-service-one .hover-block:after {
-  background-color: #13abf1;
+  background-color: #3b91c6;
   bottom: 45%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #006fca;
+  background-color: #b9e4ff;
   z-index: 9;
   transition: all 0.4s ease;
 }
@@ -2085,7 +2085,7 @@ hr.style-one {
   color: #fff;
 }
 .services-style-one .single-service-one:hover .line-block {
-  background-color: #fff;
+  background-color: rgb(88, 214, 252);
 }
 .services-style-one .single-service-one:hover:before {
   transform: translate(-50%, 0%);

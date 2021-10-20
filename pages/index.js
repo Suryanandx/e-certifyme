@@ -16,6 +16,7 @@ import Footer from "../components/footer";
 import CommentForm from "../components/comment-form";
 import Services2 from "../components/services2";
 import Works from "../components/works";
+import Contact from "../components/contactus/contact";
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
       {/* <Subscribe /> */}
 
       <Services />
-      
+      <Contact/>
       <Footer />
     </Layout>
   );
