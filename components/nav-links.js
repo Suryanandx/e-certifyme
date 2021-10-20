@@ -6,49 +6,17 @@ import { Link as ScrollLink } from "react-scroll";
 const NavLinks = () => {
   return (
     <ul className="one-page-scroll-menu navigation-box">
-      <li>
+       <li>
         <ScrollLink
           activeClass="current"
-          to="banner"
+          to="home"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
           Home
-          <SubNavToggler />
         </ScrollLink>
-
-        {/* <ul className="sub-menu">
-          <li>
-            <Link href="/">
-              <a>Home One</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/index-2">
-              <a>Home Two</a>
-            </Link>
-          </li>
-          <li>
-            <a href="index.html">
-              Header Versions
-              <SubNavToggler />
-            </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="/">
-                  <a>Header One</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/index-2">
-                  <a>Header Two</a>
-                </Link>
-              </li>
-            </ul>
-          </li>
-        </ul> */}
       </li>
       <li>
         <ScrollLink

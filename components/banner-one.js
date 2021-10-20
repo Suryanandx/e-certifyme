@@ -4,7 +4,7 @@ import moc from "../assets/images/banner-moc-1-1.png";
 
 const BannerOne = () => {
   return (
-    <section className="banner-style-one" id="banner">
+    <section className="banner-style-one" id="home">
       <span className="bubble-1"></span>
       <span className="bubble-2"></span>
       <span className="bubble-3"></span>

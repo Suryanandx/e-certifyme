@@ -17,7 +17,7 @@ const Footer = () => {
             <Row>
               <Col lg={4} md={6} sm={12}>
                 <div className="footer-widget">
-                  <a href="index.html">
+                  <a href="/">
                     <img width='265px'  src={logoImage} alt="Awesome Image" />
                   </a>
                 </div>

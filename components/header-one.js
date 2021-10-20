@@ -51,7 +51,7 @@ const HeaderOne = () => {
           <div className="logo-box clearfix">
             <Link href="/">
               <a className="navbar-brand">
-                <img width='265px' src={logoImage} alt="Awesome Image" />
+                <img  src={logoImage} alt="Awesome Image" />
               </a>
             </Link>
             <button className="menu-toggler">
