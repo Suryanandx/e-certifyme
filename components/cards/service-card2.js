@@ -13,8 +13,11 @@ const ServiceCard2 = ({ icon, title, text, link }) => {
         Read More
       </a> */}
     </div>
-    <p style={{boxShadow: 'initial', fontSize: '20px'}}>{text}</p>
-    <div className="line-block "></div>
+    
+    
+    <div style={{display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
+    <p style={{boxShadow: 'initial', fontSize: '25px'}}>{text}</p>
+    </div>
     </>
   );
 };

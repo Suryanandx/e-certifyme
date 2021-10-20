@@ -26,14 +26,11 @@ const BannerOne = () => {
               
 
               <div className="button-block">
-                <a href="#" className="banner-btn">
-                  <i className="fa fa-play"></i>
-                  Get in<span>Google Play</span>
+                <a href="#about" className="banner-btn">
+                 
+                  <span>Explore Now</span>
                 </a>
-                <a href="#" className="banner-btn">
-                  <i className="fa fa-apple"></i>
-                  Get in<span>Play Store</span>
-                </a>
+               
               </div>
             </div>
           </Col>
