@@ -15,6 +15,7 @@ import Subscribe from "../components/subscribe";
 import Footer from "../components/footer";
 import CommentForm from "../components/comment-form";
 import Services2 from "../components/services2";
+import Works from "../components/works";
 
 const Home = () => {
   return (
@@ -23,9 +24,11 @@ const Home = () => {
       <BannerOne />
       {/* <FunFact /> */}
       
-      <FeatureTwo />
-      <Services2 />
+      {/* <FeatureTwo /> */}
       <FeatureOne />
+      <Works/>
+      <Services2 />
+     
       {/* <Pricing /> */}
       {/* <Testimonials />
       <Brands />
@@ -34,7 +37,7 @@ const Home = () => {
       {/* <Subscribe /> */}
 
       <Services />
-     
+      
       <Footer />
     </Layout>
   );

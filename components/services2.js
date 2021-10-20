@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ServiceCard2 from "./cards/service-card2";
 import BlockTitle from "./block-title";
-import blockTitleCircle from "../assets/images/round-circle-1-1.png";
+import blockTitleCircle from "../assets/images/round-circle-1-2.png";
 
 const SERVICES_DATA = [
   {

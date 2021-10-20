@@ -1926,7 +1926,7 @@ hr.style-one {
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  color: #e94fca;
+  color: #64a6f1;
 }
 .feature-style-two .content-block .feature-btn {
   border-style: solid;
@@ -1944,16 +1944,16 @@ hr.style-one {
   transition: all 0.4s ease;
 }
 .feature-style-two .content-block .feature-btn:hover {
-  background-color: #e94fca;
+  background-color: #76c1ff;
   color: #fff;
-  border-color: #e94fca;
+  border-color: #4f8ae9;
 }
 
 /*
 * 12.services styles
 */
 .services-style-one {
-  background-color: #fff8f8;
+  background-color: #e8f6ff;
   position: relative;
   padding-top: 120px;
   padding-bottom: 350px;
@@ -1962,7 +1962,7 @@ hr.style-one {
   content: "";
   width: 100%;
   height: 251px;
-  background: #fff url(../images/bg-curve-1-1.png) center center no-repeat;
+  background: #fff url(../images/bg-curve-1-2.png) center center no-repeat;
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -1973,7 +1973,7 @@ hr.style-one {
   padding-bottom: 50px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ffe5e5;
+  border-color: #e1fbff;
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 15px 30px 0px rgba(255, 228, 228, 0.3);
@@ -1990,7 +1990,7 @@ hr.style-one {
   bottom: 25%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #ca00ca;
+  background-color: #59adfb;
   z-index: 8;
   transition: all 0.4s ease;
 }
@@ -2006,16 +2006,16 @@ hr.style-one {
   bottom: 65%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #8c00ca;
+  background-color: #0284ee;
   z-index: 10;
   transition: all 0.4s ease;
 }
 .services-style-one .single-service-one .hover-block:after {
-  background-color: #ab00ca;
+  background-color: #13abf1;
   bottom: 45%;
   left: 50%;
   transform: translate(-50%, -100%);
-  background-color: #ab00ca;
+  background-color: #006fca;
   z-index: 9;
   transition: all 0.4s ease;
 }
@@ -2071,8 +2071,8 @@ hr.style-one {
   z-index: 10;
 }
 .services-style-one .single-service-one:hover {
-  background-color: #e94fca;
-  border-color: #e94fca;
+  background-color: #7aceff;
+  border-color: #82f0ff;
 }
 .services-style-one .single-service-one:hover i,
 .services-style-one .single-service-one:hover h3,

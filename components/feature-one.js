@@ -6,7 +6,7 @@ import mocup from "../assets/images/about1.png";
 
 const FeatureOne = () => {
   return (
-    <section id='about2' className="feature-style-one">
+    <section id='about' className="feature-style-one">
       <Container>
         <hr className="style-one" />
         <Row>
@@ -15,8 +15,16 @@ const FeatureOne = () => {
               <BlockTitle
                 textAlign="left"
                 image={blockTitleCircle}
-                title={`How e-Certifyme does`}
+                title={`About Us`}
               />
+              <p style={{fontSize: '18px'}}>
+                Duis aute irure dolor in reprehenderit in voluptate <br /> velit
+                esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <p style={{fontSize: '25px'}}>
+              <b> How e-certify me does ?</b>
+              </p>
+              
               <p style={{fontSize: '18px'}}>
               e-Certifyme gives a system to give digital certificates/documents and to utilize decentralized check
 without weak links. e-Certifyme is pointed toward creating Interoperable &quot;Self-Sovereign Identity&quot;
@@ -36,9 +44,9 @@ without weak links. e-Certifyme is pointed toward creating Interoperable &quot;S
                   fugiat nulla pariatur.
                 </li>
               </ul> */}
-              <a href="#" className="feature-btn">
+              {/* <a href="#" className="feature-btn">
                 Learn More
-              </a>
+              </a> */}
             </div>
           </Col>
 

@@ -65,16 +65,15 @@ const NavLinks = () => {
       <li>
         <ScrollLink
           activeClass="current"
-          to="service"
+          to="works"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Features
+          How it Works
         </ScrollLink>
       </li>
-      
       <li>
         <ScrollLink
           activeClass="current"
@@ -87,6 +86,20 @@ const NavLinks = () => {
           Products
         </ScrollLink>
       </li>
+      <li>
+        <ScrollLink
+          activeClass="current"
+          to="service"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Features
+        </ScrollLink>
+      </li>
+      
+     
       {/* <li>
         <ScrollLink
           activeClass="current"
