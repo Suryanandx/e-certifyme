@@ -35,7 +35,7 @@ const Works = () => {
         <BlockTitle
           textAlign="center"
           image={blockTitleCircle}
-          title={`How e-certifyme works ?`}
+          title={`How E-certifyme Works ?`}
         />
         <Row>
           {SERVICES_DATA.map(({ icon, title, text, link }, index) => (
