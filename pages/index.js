@@ -19,7 +19,7 @@ import Works from "../components/works";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One || Opins React Next Template">
+    <Layout pageTitle="E-Cerifyme ">
       <HeaderOne />
       <BannerOne />
       {/* <FunFact /> */}
