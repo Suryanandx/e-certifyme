@@ -17,13 +17,7 @@ const FeatureOne = () => {
                 image={blockTitleCircle}
                 title={`About Us`}
               />
-              <p style={{fontSize: '18px'}}>
-                Duis aute irure dolor in reprehenderit in voluptate <br /> velit
-                esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-              <p style={{fontSize: '25px'}}>
-              <b> How e-certify me does ?</b>
-              </p>
+             
               
               <p style={{fontSize: '18px'}}>
               e-Certifyme gives a system to give digital certificates/documents and to utilize decentralized check
