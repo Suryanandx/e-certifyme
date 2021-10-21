@@ -3,7 +3,7 @@ import contact from '../../assets/images/contact.png'
 
 const Contact = () => {
     return (
-        <div class="contact3 py-5">
+        <div id="contact" class="contact3 py-5">
         <div class="row no-gutters">
           <div class="container">
             <div class="row">
@@ -38,13 +38,13 @@ const Contact = () => {
                         </div>
                       </div>
                       <div class="col-lg-12">
-                        <button type="submit" class="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
+                        <button type="submit" class="btn btn-danger-gradiant mt-3 text-black border-0 px-3 py-2"><span> SUBMIT</span></button>
                       </div>
                     </div>
                   </form>
                 </div>
               </div>
-              <div class="col-lg-12">
+              {/* <div class="col-lg-12">
                 <div class="card mt-4 border-0 mb-4">
                   <div class="row">
                     <div class="col-lg-4 col-md-4">
@@ -87,7 +87,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

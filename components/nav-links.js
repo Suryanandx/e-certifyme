@@ -66,7 +66,18 @@ const NavLinks = () => {
           Features
         </ScrollLink>
       </li>
-      
+      <li>
+        <ScrollLink
+          activeClass="current"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Contact Us
+        </ScrollLink>
+      </li>
      
       {/* <li>
         <ScrollLink
